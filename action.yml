@@ -1,6 +1,6 @@
 name: 'google-chat-notification'
 description: 'Google Chat Notification for GitHub Actions'
-author: 'Co-qn'
+author: 'thenationofalex'
 inputs:
   name:
     description: 'job name.'
@@ -12,7 +12,7 @@ inputs:
     description: 'job status.'
     required: true
 runs:
-  using: 'node16'
+  using: 'node20'
   main: 'dist/index.js'
 branding:
   icon: 'bell'
